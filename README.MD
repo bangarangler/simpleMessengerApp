@@ -9,13 +9,18 @@ I use tmux but you can open multiple terminals or proceed as you would normally 
 about your business.
 
 1. git clone the repo
-2. from the root directory run `make install` (this will install for backend and
+2. copy and paste the .env.example and create a .env inside the backend
+   directory. Paste it inside `backend/.env` (I've pushed up the creds in
+   .env.example.) Let me know when your finished with it and I'll delete the
+   free test DB. It's open and should connect with the provided credentials.
+   (Never do this for actual app, but for the sake of this POC here ya go ; ))
+3. from the root directory run `make install` (this will install for backend and
    frontend). Once finished continue.
-3. from the root directory in one terminal run make startBE (this will start up
+4. from the root directory in one terminal run make startBE (this will start up
    the backend). alternatively you could `cd backend && npm run dev`
-4. from the root directory in second termianl run make startFE (this will start
+5. from the root directory in second termianl run make startFE (this will start
    up the frontend). alternatively you could `cd frontend && npm start`
-5. profit... Open a few browser tabs and join the conversation. Please ignore
+6. profit... Open a few browser tabs and join the conversation. Please ignore
    the styles. They are super minimal and I didn't take the time to worry
    about it. I'm a bit OCD and that could easily have taken over my life if I
    looked at it more than twice (lol).
