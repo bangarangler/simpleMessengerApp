@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.App h1 {
+  font-weight: 700;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-height: 400px;
+  min-height: 400px;
+  box-shadow: 0 0 1px 0;
+  max-width: 700px;
+  margin: 0 auto;
+  overflow: scroll;
+}
+
+ul li {
+  list-style: none;
+  margin: 8px 0px;
+  font-style: italic;
+}
+
+.Username_Wrapper {
+  border-radius: 12px;
+  border: 1px solid gray;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.Username_Wrapper label {
+  margin-right: 8px;
+}
+
+.Username_Wrapper input {
+  margin: 0 32px;
+  width: 200px;
+}
+
+.Username_Wrapper button {
+  margin-left: 8px;
+  /* border: none; */
+  background: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.sendForm_wrapper {
+  margin-top: 20px;
+}
+
+.sendForm_wrapper form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.sendForm_wrapper form button {
+  background: limegreen;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 12px;
+  padding: 5px;
+}
