@@ -16,9 +16,9 @@ about your business.
    (Never do this for actual app, but for the sake of this POC here ya go ; ))
 3. from the root directory run `make install` (this will install for backend and
    frontend). Once finished continue.
-4. from the root directory in one terminal run make startBE (this will start up
+4. from the root directory in one terminal run `make startBE` (this will start up
    the backend). alternatively you could `cd backend && npm run dev`
-5. from the root directory in second termianl run make startFE (this will start
+5. from the root directory in second termianl run `make startFE` (this will start
    up the frontend). alternatively you could `cd frontend && npm start`
 6. profit... Open a few browser tabs and join the conversation. Please ignore
    the styles. They are super minimal and I didn't take the time to worry
